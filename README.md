@@ -51,7 +51,7 @@ flowchart LR
 - Airflow schedules train/score; predictions written back to Snowflake
 - Power BI dashboard shows forecasts, error bands, and drivers
 
-![Forecasting Dashboard](screenshots/forecasting-dashboard.png)
+![Forecasting Architecture](screenshots/forecasting-architecture.png)
 
 - **ml-forecasting/** — Time-series demand forecasting with SHAP-based insights using Snowflake + dbt + Airflow + Databricks + Power BI.
 - ### ML Forecasting — Screenshots
