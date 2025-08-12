@@ -38,7 +38,7 @@ flowchart LR
 - Airflow DAG manages daily refresh and data tests
 - Streamlit UI with source citations and answer confidence
 
-![RAG UI](screenshots/rag-ui-search.png)
+![RAG Architecture](screenshots/rag-architecture.png)
 
 ---
 
@@ -77,7 +77,7 @@ flowchart LR
 - Airflow schedules train/score; predictions written back to Snowflake
 - Power BI dashboard shows forecasts, error bands, and drivers
 
-![Forecasting Dashboard](screenshots/forecasting-dashboard.png)
+![Forecasting Architecture](screenshots/forecasting-architecture.png)
 
 > **Note:** All code is templated for personal use: no company code/data. Replace placeholders with your credentials and dataset paths.
 
