@@ -1,0 +1,7 @@
+name: rag_copilot
+version: 1.0.0
+profile: rag_copilot
+model-paths: ["models"]
+models:
+  rag_copilot:
+    +materialized: view

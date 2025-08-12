@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# dbt
+target/
+dbt_modules/
+
+# Airflow
+airflow/logs/
+airflow/*.db
+
+# Power BI
+*.pbix
+
+# VSCode
+.vscode/

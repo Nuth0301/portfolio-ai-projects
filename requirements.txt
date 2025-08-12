@@ -1,0 +1,19 @@
+# Shared minimal requirements for local development
+python-dotenv==1.0.1
+pandas==2.2.2
+numpy==1.26.4
+SQLAlchemy==2.0.30
+snowflake-connector-python==3.11.0
+snowflake-sqlalchemy==1.6.1
+dbt-core==1.8.3
+dbt-snowflake==1.8.2
+apache-airflow-client==2.9.0
+requests==2.32.3
+scikit-learn==1.4.2
+matplotlib==3.8.4
+shap==0.45.1
+streamlit==1.36.0
+openai==1.40.2
+pydantic==2.8.2
+fastapi==0.111.0
+uvicorn==0.30.1

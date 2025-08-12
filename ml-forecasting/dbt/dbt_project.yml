@@ -1,0 +1,7 @@
+name: ml_forecasting
+version: 1.0.0
+profile: ml_forecasting
+model-paths: ["models"]
+models:
+  ml_forecasting:
+    +materialized: table
